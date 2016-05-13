@@ -34,7 +34,7 @@ public class SignalEntropizer {
             }
         }
 
-        System.out.println(entropy);
+        System.out.print(entropy);
         percentEntropy = 100 * entropy / 8;
         totalEntropy = entropy * signal.length;
 
